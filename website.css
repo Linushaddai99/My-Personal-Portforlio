@@ -9,15 +9,19 @@ body::before {
     height: 30px;
 }
 
+#close-menu {
+    position: absolute;
+    font-size: 24px;
+    right: 20px;
+    display: block;
+}
+
 .myImg {
     width: 100%;
     top: 100px;
 }
 
-.myImg1 {
-    width: 100%;
-    top: 100px;
-}
+
 
 .grid1 {
     display: grid;
@@ -62,7 +66,10 @@ body::before {
 
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
-    
+    .myImg2 {
+        top: 0; 
+    }
+  
     }
     
     @media screen and (max-width: 768px) {
@@ -95,6 +102,7 @@ body::before {
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
+
     }
 
 
