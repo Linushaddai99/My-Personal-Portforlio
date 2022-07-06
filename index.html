@@ -11,7 +11,7 @@
      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
  </head>
  <body class="bg-dark">
     <!--Welcom page-->
@@ -21,7 +21,7 @@
                 <a href="#" class="navbar-brand">
                     <span class="fw-bold text-light">About Me</span>
                 </a>
-                <button class="navbar-toggler" id="toggle-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-light" id="toggle-menu" style="border: none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse position-relative" id="navbarNav">
@@ -50,7 +50,7 @@
                     <h1 class="fw-bold text-secondary" style="font-size: 40px;">Hi I'm Shaddai a<br><span class="text-warning">Frontend developer</span></h1>
                     <p class="fw-bold text-light lead">A bit about me</p>
                     <p class="text-secondary py-2">My name is Linus Shaddai, I'm a young and recent graduate. I am a budding frontend Developer with knowledge in HTML, CSS, Javascript and Boostrap. If you want to know more, the click the circles below. I hope you have fun while on my page.</p>
-                    <a href="#" download="shaddai's cv" class="btn btn-primary" id="showBtn">Download my cv <i class="bi bi-arrow-down-circle"></i>
+                    <a href="CURRICULUM VITA-WPS Office.docx" download="shaddai's cv" class="btn btn-primary" id="showBtn">Download my cv <i class="bi bi-arrow-down-circle"></i>
                     </a>
                 </div>
                 <div class="pt-3 mt-3">
@@ -174,27 +174,27 @@
             <!--grid2 area-->
             <div class="grid2">
                 <div class="left">
-                    <a href="#"><img src="img/project1.png" class="grid2-img"></a>
+                    <a href="https://my-bookmark-site.netlify.app/"><img src="./img/bookmark_1.png" class="grid2-img"></a>
                 </div>
 
                 <div class="showRight">
-                    <a href="#"><img src="img/project2.png" class="grid2-img"></a>
+                    <a href="https://miniproduct-page.netlify.app/"><img src="./img/ecommerce_1.png" class="grid2-img"></a>
                 </div>
 
                 <div class="right">
-                    <a href="#"><img src="img/project3.png" class="grid2-img"></a>
+                    <a href="https://restcontriesapi-project.netlify.app/"><img src="./img/restcountries_1.png" class="grid2-img"></a>
                 </div>
 
                 <div class="left">
-                    <a href="#"><img src="img/project5.png" class="grid2-img"></a>
+                    <a href="https://jisomspecial-weatherapp.netlify.app/" target="_blank"><img src="img/project5.png" class="grid2-img"></a>
                 </div>
 
                 <div class="bottom">
-                    <a href="#"><img src="img/project8.png" class="grid2-img"></a>
+                    <a href="https://jisomspecial-todoapp.netlify.app/"><img src="./img/todoapp_1.png" class="grid2-img"></a>
                 </div>
 
                 <div class="right">
-                    <a href="#"><img src="img/project7.png" class="grid2-img"></a>
+                    <a href="https://frontend-bootcamp-demosite.netlify.app/"><img src="./img/project8.png" class="grid2-img"></a>
                 </div>
             </div>
         </div>
@@ -255,25 +255,28 @@
     
 
     <script src="bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
-    <!-- <script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', {
             duration: 2000,
             origin: 'right',
-            distance: '150px'
+            distance: '150px',
+            mobile: false
         });
 
         sr.reveal('.showRight', {
             duration: 2000,
             origin: 'top',
-            distance: '300px'
+            distance: '300px',
+            mobile: false
         });
 
         sr.reveal('#showLeft', {
             duration: 2000,
             origin: 'left',
-            distance: '300px'
+            distance: '300px',
+            mobile: false
         });
 
         sr.reveal('#showBtn', {
@@ -302,7 +305,7 @@
             distance: '200px',
             viewFactor: 0.2
         });
-    </script> -->
+    </script>
     <script src="website.js"></script>
  </body>
  </html>
